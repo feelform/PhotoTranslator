@@ -7,15 +7,21 @@
 //
 
 #import "PhotoTranslatorAppDelegate.h"
+#import "MainViewController.h"
 
 @implementation PhotoTranslatorAppDelegate
-
-
 @synthesize window=_window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	
+	MainViewController *rootController = [MainViewController controller];
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootController];
+	self.window.rootViewController = navigationController;
+	[navigationController release];
+	[self.window addSubview:navigationController.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

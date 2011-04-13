@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface PhotoTranslatorAppDelegate : NSObject <UIApplicationDelegate> {
-
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

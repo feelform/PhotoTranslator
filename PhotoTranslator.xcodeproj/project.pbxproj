@@ -20,6 +20,7 @@
 		78FCA47C135535F7000CD1A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FCA47A135535F7000CD1A1 /* InfoPlist.strings */; };
 		78FCA47F135535F7000CD1A1 /* PhotoTranslatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78FCA47E135535F7000CD1A1 /* PhotoTranslatorTests.h */; };
 		78FCA481135535F7000CD1A1 /* PhotoTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA480135535F7000CD1A1 /* PhotoTranslatorTests.m */; };
+		78FCA492135539CB000CD1A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA491135539CB000CD1A1 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,19 +38,21 @@
 		78FCA457135535F7000CD1A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78FCA459135535F7000CD1A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78FCA45B135535F7000CD1A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		78FCA45F135535F7000CD1A1 /* PhotoTranslator-Info.plist */ = {isa = PBXFileReference; path = "PhotoTranslator-Info.plist"; sourceTree = "<group>"; };
+		78FCA45F135535F7000CD1A1 /* PhotoTranslator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoTranslator-Info.plist"; sourceTree = "<group>"; };
 		78FCA461135535F7000CD1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		78FCA463135535F7000CD1A1 /* PhotoTranslator-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		78FCA463135535F7000CD1A1 /* PhotoTranslator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoTranslator-Prefix.pch"; sourceTree = "<group>"; };
 		78FCA464135535F7000CD1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78FCA466135535F7000CD1A1 /* PhotoTranslatorAppDelegate.h */ = {isa = PBXFileReference; path = PhotoTranslatorAppDelegate.h; sourceTree = "<group>"; };
+		78FCA466135535F7000CD1A1 /* PhotoTranslatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoTranslatorAppDelegate.h; sourceTree = "<group>"; };
 		78FCA467135535F7000CD1A1 /* PhotoTranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTranslatorAppDelegate.m; sourceTree = "<group>"; };
 		78FCA46A135535F7000CD1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		78FCA471135535F7000CD1A1 /* PhotoTranslatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTranslatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78FCA479135535F7000CD1A1 /* PhotoTranslatorTests-Info.plist */ = {isa = PBXFileReference; path = "PhotoTranslatorTests-Info.plist"; sourceTree = "<group>"; };
+		78FCA479135535F7000CD1A1 /* PhotoTranslatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoTranslatorTests-Info.plist"; sourceTree = "<group>"; };
 		78FCA47B135535F7000CD1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		78FCA47D135535F7000CD1A1 /* PhotoTranslatorTests-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoTranslatorTests-Prefix.pch"; sourceTree = "<group>"; };
+		78FCA47D135535F7000CD1A1 /* PhotoTranslatorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoTranslatorTests-Prefix.pch"; sourceTree = "<group>"; };
 		78FCA47E135535F7000CD1A1 /* PhotoTranslatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoTranslatorTests.h; sourceTree = "<group>"; };
 		78FCA480135535F7000CD1A1 /* PhotoTranslatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTranslatorTests.m; sourceTree = "<group>"; };
+		78FCA490135539CB000CD1A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		78FCA491135539CB000CD1A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 		78FCA45D135535F7000CD1A1 /* PhotoTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				78FCA493135539E5000CD1A1 /* Views */,
 				78FCA466135535F7000CD1A1 /* PhotoTranslatorAppDelegate.h */,
 				78FCA467135535F7000CD1A1 /* PhotoTranslatorAppDelegate.m */,
 				78FCA469135535F7000CD1A1 /* MainWindow.xib */,
@@ -145,6 +149,15 @@
 				78FCA47D135535F7000CD1A1 /* PhotoTranslatorTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78FCA493135539E5000CD1A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78FCA490135539CB000CD1A1 /* MainViewController.h */,
+				78FCA491135539CB000CD1A1 /* MainViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 			files = (
 				78FCA465135535F7000CD1A1 /* main.m in Sources */,
 				78FCA468135535F7000CD1A1 /* PhotoTranslatorAppDelegate.m in Sources */,
+				78FCA492135539CB000CD1A1 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
