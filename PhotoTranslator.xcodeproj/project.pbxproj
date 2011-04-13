@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78FCA458135535F7000CD1A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCA457135535F7000CD1A1 /* UIKit.framework */; };
+		78FCA45A135535F7000CD1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCA459135535F7000CD1A1 /* Foundation.framework */; };
+		78FCA45C135535F7000CD1A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCA45B135535F7000CD1A1 /* CoreGraphics.framework */; };
+		78FCA462135535F7000CD1A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FCA460135535F7000CD1A1 /* InfoPlist.strings */; };
+		78FCA465135535F7000CD1A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA464135535F7000CD1A1 /* main.m */; };
+		78FCA468135535F7000CD1A1 /* PhotoTranslatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA467135535F7000CD1A1 /* PhotoTranslatorAppDelegate.m */; };
+		78FCA46B135535F7000CD1A1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78FCA469135535F7000CD1A1 /* MainWindow.xib */; };
+		78FCA472135535F7000CD1A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCA457135535F7000CD1A1 /* UIKit.framework */; };
+		78FCA473135535F7000CD1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCA459135535F7000CD1A1 /* Foundation.framework */; };
+		78FCA474135535F7000CD1A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCA45B135535F7000CD1A1 /* CoreGraphics.framework */; };
+		78FCA47C135535F7000CD1A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FCA47A135535F7000CD1A1 /* InfoPlist.strings */; };
+		78FCA47F135535F7000CD1A1 /* PhotoTranslatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78FCA47E135535F7000CD1A1 /* PhotoTranslatorTests.h */; };
+		78FCA481135535F7000CD1A1 /* PhotoTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA480135535F7000CD1A1 /* PhotoTranslatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78FCA475135535F7000CD1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78FCA44A135535F7000CD1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78FCA452135535F7000CD1A1;
+			remoteInfo = PhotoTranslator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78FCA453135535F7000CD1A1 /* PhotoTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FCA457135535F7000CD1A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78FCA459135535F7000CD1A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78FCA45B135535F7000CD1A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78FCA45F135535F7000CD1A1 /* PhotoTranslator-Info.plist */ = {isa = PBXFileReference; path = "PhotoTranslator-Info.plist"; sourceTree = "<group>"; };
+		78FCA461135535F7000CD1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78FCA463135535F7000CD1A1 /* PhotoTranslator-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		78FCA464135535F7000CD1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78FCA466135535F7000CD1A1 /* PhotoTranslatorAppDelegate.h */ = {isa = PBXFileReference; path = PhotoTranslatorAppDelegate.h; sourceTree = "<group>"; };
+		78FCA467135535F7000CD1A1 /* PhotoTranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTranslatorAppDelegate.m; sourceTree = "<group>"; };
+		78FCA46A135535F7000CD1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		78FCA471135535F7000CD1A1 /* PhotoTranslatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTranslatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FCA479135535F7000CD1A1 /* PhotoTranslatorTests-Info.plist */ = {isa = PBXFileReference; path = "PhotoTranslatorTests-Info.plist"; sourceTree = "<group>"; };
+		78FCA47B135535F7000CD1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78FCA47D135535F7000CD1A1 /* PhotoTranslatorTests-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoTranslatorTests-Prefix.pch"; sourceTree = "<group>"; };
+		78FCA47E135535F7000CD1A1 /* PhotoTranslatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoTranslatorTests.h; sourceTree = "<group>"; };
+		78FCA480135535F7000CD1A1 /* PhotoTranslatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTranslatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78FCA450135535F7000CD1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FCA458135535F7000CD1A1 /* UIKit.framework in Frameworks */,
+				78FCA45A135535F7000CD1A1 /* Foundation.framework in Frameworks */,
+				78FCA45C135535F7000CD1A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FCA46D135535F7000CD1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FCA472135535F7000CD1A1 /* UIKit.framework in Frameworks */,
+				78FCA473135535F7000CD1A1 /* Foundation.framework in Frameworks */,
+				78FCA474135535F7000CD1A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78FCA448135535F7000CD1A1 = {
+			isa = PBXGroup;
+			children = (
+				78FCA45D135535F7000CD1A1 /* PhotoTranslator */,
+				78FCA477135535F7000CD1A1 /* PhotoTranslatorTests */,
+				78FCA456135535F7000CD1A1 /* Frameworks */,
+				78FCA454135535F7000CD1A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78FCA454135535F7000CD1A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78FCA453135535F7000CD1A1 /* PhotoTranslator.app */,
+				78FCA471135535F7000CD1A1 /* PhotoTranslatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78FCA456135535F7000CD1A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78FCA457135535F7000CD1A1 /* UIKit.framework */,
+				78FCA459135535F7000CD1A1 /* Foundation.framework */,
+				78FCA45B135535F7000CD1A1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78FCA45D135535F7000CD1A1 /* PhotoTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				78FCA466135535F7000CD1A1 /* PhotoTranslatorAppDelegate.h */,
+				78FCA467135535F7000CD1A1 /* PhotoTranslatorAppDelegate.m */,
+				78FCA469135535F7000CD1A1 /* MainWindow.xib */,
+				78FCA45E135535F7000CD1A1 /* Supporting Files */,
+			);
+			path = PhotoTranslator;
+			sourceTree = "<group>";
+		};
+		78FCA45E135535F7000CD1A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FCA45F135535F7000CD1A1 /* PhotoTranslator-Info.plist */,
+				78FCA460135535F7000CD1A1 /* InfoPlist.strings */,
+				78FCA463135535F7000CD1A1 /* PhotoTranslator-Prefix.pch */,
+				78FCA464135535F7000CD1A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78FCA477135535F7000CD1A1 /* PhotoTranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				78FCA47E135535F7000CD1A1 /* PhotoTranslatorTests.h */,
+				78FCA480135535F7000CD1A1 /* PhotoTranslatorTests.m */,
+				78FCA478135535F7000CD1A1 /* Supporting Files */,
+			);
+			path = PhotoTranslatorTests;
+			sourceTree = "<group>";
+		};
+		78FCA478135535F7000CD1A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FCA479135535F7000CD1A1 /* PhotoTranslatorTests-Info.plist */,
+				78FCA47A135535F7000CD1A1 /* InfoPlist.strings */,
+				78FCA47D135535F7000CD1A1 /* PhotoTranslatorTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78FCA452135535F7000CD1A1 /* PhotoTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FCA484135535F7000CD1A1 /* Build configuration list for PBXNativeTarget "PhotoTranslator" */;
+			buildPhases = (
+				78FCA44F135535F7000CD1A1 /* Sources */,
+				78FCA450135535F7000CD1A1 /* Frameworks */,
+				78FCA451135535F7000CD1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTranslator;
+			productName = PhotoTranslator;
+			productReference = 78FCA453135535F7000CD1A1 /* PhotoTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78FCA470135535F7000CD1A1 /* PhotoTranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FCA487135535F7000CD1A1 /* Build configuration list for PBXNativeTarget "PhotoTranslatorTests" */;
+			buildPhases = (
+				78FCA46C135535F7000CD1A1 /* Sources */,
+				78FCA46D135535F7000CD1A1 /* Frameworks */,
+				78FCA46E135535F7000CD1A1 /* Resources */,
+				78FCA46F135535F7000CD1A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78FCA476135535F7000CD1A1 /* PBXTargetDependency */,
+			);
+			name = PhotoTranslatorTests;
+			productName = PhotoTranslatorTests;
+			productReference = 78FCA471135535F7000CD1A1 /* PhotoTranslatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78FCA44A135535F7000CD1A1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 78FCA44D135535F7000CD1A1 /* Build configuration list for PBXProject "PhotoTranslator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78FCA448135535F7000CD1A1;
+			productRefGroup = 78FCA454135535F7000CD1A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78FCA452135535F7000CD1A1 /* PhotoTranslator */,
+				78FCA470135535F7000CD1A1 /* PhotoTranslatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78FCA451135535F7000CD1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FCA462135535F7000CD1A1 /* InfoPlist.strings in Resources */,
+				78FCA46B135535F7000CD1A1 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FCA46E135535F7000CD1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FCA47C135535F7000CD1A1 /* InfoPlist.strings in Resources */,
+				78FCA47F135535F7000CD1A1 /* PhotoTranslatorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78FCA46F135535F7000CD1A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78FCA44F135535F7000CD1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FCA465135535F7000CD1A1 /* main.m in Sources */,
+				78FCA468135535F7000CD1A1 /* PhotoTranslatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FCA46C135535F7000CD1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FCA481135535F7000CD1A1 /* PhotoTranslatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78FCA476135535F7000CD1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78FCA452135535F7000CD1A1 /* PhotoTranslator */;
+			targetProxy = 78FCA475135535F7000CD1A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78FCA460135535F7000CD1A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FCA461135535F7000CD1A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78FCA469135535F7000CD1A1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FCA46A135535F7000CD1A1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		78FCA47A135535F7000CD1A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FCA47B135535F7000CD1A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78FCA482135535F7000CD1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78FCA483135535F7000CD1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		78FCA485135535F7000CD1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoTranslator/PhotoTranslator-Prefix.pch";
+				INFOPLIST_FILE = "PhotoTranslator/PhotoTranslator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78FCA486135535F7000CD1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoTranslator/PhotoTranslator-Prefix.pch";
+				INFOPLIST_FILE = "PhotoTranslator/PhotoTranslator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78FCA488135535F7000CD1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoTranslator.app/PhotoTranslator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoTranslatorTests/PhotoTranslatorTests-Prefix.pch";
+				INFOPLIST_FILE = "PhotoTranslatorTests/PhotoTranslatorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		78FCA489135535F7000CD1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoTranslator.app/PhotoTranslator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoTranslatorTests/PhotoTranslatorTests-Prefix.pch";
+				INFOPLIST_FILE = "PhotoTranslatorTests/PhotoTranslatorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78FCA44D135535F7000CD1A1 /* Build configuration list for PBXProject "PhotoTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FCA482135535F7000CD1A1 /* Debug */,
+				78FCA483135535F7000CD1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FCA484135535F7000CD1A1 /* Build configuration list for PBXNativeTarget "PhotoTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FCA485135535F7000CD1A1 /* Debug */,
+				78FCA486135535F7000CD1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78FCA487135535F7000CD1A1 /* Build configuration list for PBXNativeTarget "PhotoTranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FCA488135535F7000CD1A1 /* Debug */,
+				78FCA489135535F7000CD1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78FCA44A135535F7000CD1A1 /* Project object */;
+}
