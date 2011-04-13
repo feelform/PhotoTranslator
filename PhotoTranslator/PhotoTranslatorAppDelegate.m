@@ -3,7 +3,7 @@
 //  PhotoTranslator
 //
 //  Created by Yongseok Kang on 4/13/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 feelform.net. All rights reserved.
 //
 
 #import "PhotoTranslatorAppDelegate.h"
@@ -16,8 +16,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
-	MainViewController *rootController = [MainViewController controller];
-	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootController];
+	MainViewController *mainViewController = [MainViewController controller];
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
 	self.window.rootViewController = navigationController;
 	[navigationController release];
 	[self.window addSubview:navigationController.view];

@@ -439,6 +439,7 @@
 				78FCA486135535F7000CD1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78FCA487135535F7000CD1A1 /* Build configuration list for PBXNativeTarget "PhotoTranslatorTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +448,7 @@
 				78FCA489135535F7000CD1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
